@@ -64,16 +64,20 @@ ul { list-style: none; margin: 0; padding: 0; }
   background-size: cover;
   background-position: center;
   opacity: 0;
-  animation: slide 24s linear infinite;
-  animation-delay: calc(var(--i) * 8s);
+  will-change: opacity, transform;
+}
+
+.hero-slides.ready .hero-slide {
+  animation: slide 33s ease-in-out infinite;
+  animation-delay: calc(var(--i) * 11s);
 }
 
 @keyframes slide {
   0% { opacity: 0; transform: scale(1.02); }
-  8% { opacity: 1; }
-  33% { opacity: 1; }
-  42% { opacity: 0; transform: scale(1.12); }
-  100% { opacity: 0; transform: scale(1.12); }
+  14% { opacity: 1; }
+  33.3% { opacity: 1; }
+  47% { opacity: 0; transform: scale(1.1); }
+  100% { opacity: 0; transform: scale(1.1); }
 }
 
 .hero-text { position: relative; max-width: 760px; }
@@ -381,8 +385,8 @@ main { padding: clamp(40px, 7vw, 96px) clamp(16px, 4vw, 56px) 40px; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .hero-slide { animation: none; }
-  .hero-slide:first-child { opacity: 1; }
+  .hero-slides.ready .hero-slide { animation: none; }
+  .hero-slides.ready .hero-slide:first-child { opacity: 1; }
   .hero-text > * { animation: none; }
   .js .tile { transform: none; transition: opacity 0.2s ease; transition-delay: 0s; }
   .work img { transition: opacity 0.2s ease; }

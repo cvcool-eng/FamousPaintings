@@ -21,13 +21,21 @@ let busy = false;
 /* Hero */
 
 const slides = document.querySelector('.hero-slides');
-[1, 2, 8].forEach((paintingIndex, i) => {
+const slideImages = [1, 2, 8].map((paintingIndex, i) => {
+  const url = imageUrl(paintings[paintingIndex], 1920);
   const slide = document.createElement('div');
   slide.className = 'hero-slide';
   slide.style.setProperty('--i', i);
-  slide.style.backgroundImage = `url("${imageUrl(paintings[paintingIndex], 1920)}")`;
+  slide.style.backgroundImage = `url("${url}")`;
   slides.prepend(slide);
+
+  const image = new Image();
+  image.src = url;
+  return image.decode();
 });
+
+// Hold the slideshow until every image is ready, so none appears half drawn
+Promise.allSettled(slideImages).then(() => slides.classList.add('ready'));
 
 /* Gallery wall */
 
