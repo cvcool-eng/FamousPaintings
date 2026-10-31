@@ -54,19 +54,6 @@ const paintings = [
     w: 12285, h: 14550
   },
   {
-    title: 'The Birth of Venus',
-    artist: 'Sandro Botticelli',
-    life: 'c. 1445–1510',
-    date: 'c. 1485',
-    painted: 'Florence, Italy',
-    location: 'Uffizi Gallery, Florence, Italy',
-    medium: 'Tempera on canvas',
-    size: '172.5 × 278.9 cm',
-    story: 'The goddess arrives on shore on a scallop shell, blown by the wind god Zephyr. A large nude from classical myth was a bold subject in Renaissance Florence.',
-    path: '0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg',
-    w: 30000, h: 18840
-  },
-  {
     title: 'The Scream',
     artist: 'Edvard Munch',
     life: '1863–1944',
@@ -156,19 +143,6 @@ const paintings = [
     story: 'The young Infanta Margarita stands among her attendants while Velázquez paints himself at his easel. The king and queen appear only in a mirror on the back wall, as if standing where you are.',
     path: '3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg',
     w: 26065, h: 30000
-  },
-  {
-    title: 'The Creation of Adam',
-    artist: 'Michelangelo',
-    life: '1475–1564',
-    date: 'c. 1512',
-    painted: 'Vatican City',
-    location: 'Sistine Chapel, Vatican City',
-    medium: 'Fresco',
-    size: '280 × 570 cm',
-    story: 'This scene is one panel of the vast Sistine Chapel ceiling, painted for Pope Julius II. The nearly touching fingers of God and Adam are among the most reproduced images in art.',
-    path: '5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg',
-    w: 3524, h: 1599
   },
   {
     title: 'The School of Athens',

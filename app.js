@@ -21,7 +21,7 @@ let busy = false;
 /* Hero */
 
 const slides = document.querySelector('.hero-slides');
-[1, 2, 4].forEach((paintingIndex, i) => {
+[1, 2, 8].forEach((paintingIndex, i) => {
   const slide = document.createElement('div');
   slide.className = 'hero-slide';
   slide.style.setProperty('--i', i);
