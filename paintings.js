@@ -158,19 +158,6 @@ const paintings = [
     w: 3820, h: 2964
   },
   {
-    title: 'Liberty Leading the People',
-    artist: 'Eugène Delacroix',
-    life: '1798–1863',
-    date: '1830',
-    painted: 'Paris, France',
-    location: 'Louvre, Paris, France',
-    medium: 'Oil on canvas',
-    size: '260 × 325 cm',
-    story: 'Delacroix painted this to commemorate the July Revolution of 1830, which toppled King Charles X. Liberty is both an allegory and a flesh-and-blood woman, carrying the tricolor over the barricades.',
-    path: 'a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg',
-    w: 3133, h: 2480
-  },
-  {
     title: 'Wanderer above the Sea of Fog',
     artist: 'Caspar David Friedrich',
     life: '1774–1840',
@@ -182,19 +169,6 @@ const paintings = [
     story: 'A lone figure, seen from behind, looks out over a landscape assembled from sketches of real mountains. It has become the defining image of German Romanticism.',
     path: 'b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg',
     w: 2327, h: 2980
-  },
-  {
-    title: 'The Garden of Earthly Delights',
-    artist: 'Hieronymus Bosch',
-    life: 'c. 1450–1516',
-    date: 'c. 1490–1510',
-    painted: '\'s-Hertogenbosch, Netherlands',
-    location: 'Museo del Prado, Madrid, Spain',
-    medium: 'Oil on oak panels (triptych)',
-    size: '205.5 × 384.9 cm',
-    story: 'Three panels run from Eden, through a crowded world of strange pleasures, to a nightmarish hell. Scholars still argue over what Bosch meant by it.',
-    path: '9/96/The_Garden_of_earthly_delights.jpg',
-    w: 39137, h: 22279
   },
   {
     title: 'American Gothic',
@@ -221,19 +195,6 @@ const paintings = [
     story: 'The convex mirror on the back wall reflects the whole room, including two figures in the doorway. Above it, van Eyck signed the wall in Latin: "Jan van Eyck was here."',
     path: '3/33/Van_Eyck_-_Arnolfini_Portrait.jpg',
     w: 4386, h: 6000
-  },
-  {
-    title: 'The Raft of the Medusa',
-    artist: 'Théodore Géricault',
-    life: '1791–1824',
-    date: '1818–1819',
-    painted: 'Paris, France',
-    location: 'Louvre, Paris, France',
-    medium: 'Oil on canvas',
-    size: '491 × 716 cm',
-    story: 'The picture shows survivors of a real French shipwreck of 1816, spotting a rescue ship on the horizon. Géricault interviewed survivors and studied corpses to get the details right.',
-    path: '1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg',
-    w: 5872, h: 4008
   },
   {
     title: 'Sunflowers',
@@ -288,19 +249,6 @@ const paintings = [
     w: 5897, h: 5247
   },
   {
-    title: 'Primavera',
-    artist: 'Sandro Botticelli',
-    life: 'c. 1445–1510',
-    date: 'c. 1480',
-    painted: 'Florence, Italy',
-    location: 'Uffizi Gallery, Florence, Italy',
-    medium: 'Tempera on panel',
-    size: '203 × 314 cm',
-    story: 'Venus presides over an orange grove as spring arrives, with hundreds of plants painted across the meadow. Its exact meaning is still debated.',
-    path: '3/3c/Botticelli-primavera.jpg',
-    w: 4926, h: 3236
-  },
-  {
     title: 'Lady with an Ermine',
     artist: 'Leonardo da Vinci',
     life: '1452–1519',
@@ -353,19 +301,6 @@ const paintings = [
     w: 6819, h: 4853
   },
   {
-    title: 'The Anatomy Lesson of Dr. Nicolaes Tulp',
-    artist: 'Rembrandt van Rijn',
-    life: '1606–1669',
-    date: '1632',
-    painted: 'Amsterdam, Netherlands',
-    location: 'Mauritshuis, The Hague, Netherlands',
-    medium: 'Oil on canvas',
-    size: '169.5 × 216.5 cm',
-    story: 'Members of the Amsterdam surgeons\' guild crowd around a public dissection. Rembrandt was about 25, and the commission helped make his name in the city.',
-    path: '4/4d/Rembrandt_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp.jpg',
-    w: 6000, h: 4520
-  },
-  {
     title: 'The Milkmaid',
     artist: 'Johannes Vermeer',
     life: '1632–1675',
@@ -405,19 +340,6 @@ const paintings = [
     w: 4045, h: 5205
   },
   {
-    title: 'La Grande Odalisque',
-    artist: 'Jean-Auguste-Dominique Ingres',
-    life: '1780–1867',
-    date: '1814',
-    painted: 'Rome, Italy',
-    location: 'Louvre, Paris, France',
-    medium: 'Oil on canvas',
-    size: '91 × 162 cm',
-    story: 'Commissioned by Napoleon\'s sister Caroline, the Queen of Naples, this figure has a back far longer than any real body. Critics mocked it, but the elegant line was exactly what Ingres wanted.',
-    path: '4/4a/Jean_Auguste_Dominique_Ingres%2C_La_Grande_Odalisque%2C_1814.jpg',
-    w: 2200, h: 1225
-  },
-  {
     title: 'The Fighting Temeraire',
     artist: 'J. M. W. Turner',
     life: '1775–1851',
@@ -455,32 +377,6 @@ const paintings = [
     story: 'Shakespeare\'s Ophelia floats among flowers just before she drowns. The model, Elizabeth Siddal, posed in a heated bathtub and fell ill when the lamps beneath it went out.',
     path: '9/94/John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg',
     w: 7087, h: 4820
-  },
-  {
-    title: 'Le Déjeuner sur l\'herbe',
-    artist: 'Édouard Manet',
-    life: '1832–1883',
-    date: '1863',
-    painted: 'Paris, France',
-    location: 'Musée d\'Orsay, Paris, France',
-    medium: 'Oil on canvas',
-    size: '208 × 264.5 cm',
-    story: 'A nude woman picnics with two clothed men and looks straight at the viewer. The official Salon rejected it, and it caused a scandal at the Salon des Refusés.',
-    path: '9/90/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg',
-    w: 5649, h: 4389
-  },
-  {
-    title: 'Olympia',
-    artist: 'Édouard Manet',
-    life: '1832–1883',
-    date: '1863',
-    painted: 'Paris, France',
-    location: 'Musée d\'Orsay, Paris, France',
-    medium: 'Oil on canvas',
-    size: '130.5 × 190 cm',
-    story: 'The model Victorine Meurent stares down the viewer in this modern reworking of the classical reclining Venus. It shocked visitors to the Paris Salon of 1865.',
-    path: '5/5c/Edouard_Manet_-_Olympia_-_Google_Art_Project_3.jpg',
-    w: 3510, h: 2391
   },
   {
     title: 'Nocturne in Black and Gold',
@@ -587,19 +483,6 @@ const paintings = [
     w: 4747, h: 6000
   },
   {
-    title: 'Where Do We Come From? What Are We? Where Are We Going?',
-    artist: 'Paul Gauguin',
-    life: '1848–1903',
-    date: '1897–1898',
-    painted: 'Tahiti, French Polynesia',
-    location: 'Museum of Fine Arts, Boston, USA',
-    medium: 'Oil on canvas',
-    size: '139.1 × 374.6 cm',
-    story: 'Gauguin saw this huge canvas as his final testament. It reads from right to left, from a sleeping baby to an old woman near death.',
-    path: 'e/e5/Paul_Gauguin_-_D%27ou_venons-nous.jpg',
-    w: 3090, h: 1175
-  },
-  {
     title: 'Portrait of Adele Bloch-Bauer I',
     artist: 'Gustav Klimt',
     life: '1862–1918',
@@ -624,5 +507,148 @@ const paintings = [
     story: 'From the same series as The Great Wave, this print shows Mount Fuji glowing red at dawn. With only the mountain, forest and sky, it is one of the simplest images in the set.',
     path: '5/57/Red_Fuji_southern_wind_clear_morning.jpg',
     w: 4400, h: 2937
+  },
+  {
+    title: 'Irises',
+    artist: 'Vincent van Gogh',
+    life: '1853–1890',
+    date: '1889',
+    painted: 'Saint-Rémy-de-Provence, France',
+    location: 'J. Paul Getty Museum, Los Angeles, USA',
+    medium: 'Oil on canvas',
+    size: '71 × 93 cm',
+    story: 'Van Gogh painted these flowers in the garden of the asylum at Saint-Rémy, soon after arriving there. He called painting a kind of lightning conductor for his illness.',
+    path: '3/3e/Irises-Vincent_van_Gogh.jpg',
+    w: 11516, h: 8801
+  },
+  {
+    title: 'Almond Blossom',
+    artist: 'Vincent van Gogh',
+    life: '1853–1890',
+    date: '1890',
+    painted: 'Saint-Rémy-de-Provence, France',
+    location: 'Van Gogh Museum, Amsterdam, Netherlands',
+    medium: 'Oil on canvas',
+    size: '73.3 × 92.4 cm',
+    story: 'Van Gogh made this as a gift for his newborn nephew, also named Vincent. The early blossoms against a blue sky stand for new life.',
+    path: '6/68/Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg',
+    w: 3139, h: 2480
+  },
+  {
+    title: 'Wheatfield with Crows',
+    artist: 'Vincent van Gogh',
+    life: '1853–1890',
+    date: 'July 1890',
+    painted: 'Auvers-sur-Oise, France',
+    location: 'Van Gogh Museum, Amsterdam, Netherlands',
+    medium: 'Oil on canvas',
+    size: '50.5 × 103 cm',
+    story: 'Painted in the last weeks of van Gogh\'s life, this stormy field is one of his most intense landscapes. A rough path runs into the wheat and simply stops.',
+    path: 'f/f3/Vincent_van_Gogh_%281853-1890%29_-_Wheat_Field_with_Crows_%281890%29.jpg',
+    w: 1353, h: 633
+  },
+  {
+    title: 'View of Delft',
+    artist: 'Johannes Vermeer',
+    life: '1632–1675',
+    date: 'c. 1660–1661',
+    painted: 'Delft, Netherlands',
+    location: 'Mauritshuis, The Hague, Netherlands',
+    medium: 'Oil on canvas',
+    size: '96.5 × 115.7 cm',
+    story: 'Vermeer shows his home town under a broad, cloudy sky, with sunlight falling on distant rooftops. It is one of only a few outdoor scenes he ever painted.',
+    path: 'a/a2/Vermeer-view-of-delft.jpg',
+    w: 3000, h: 2491
+  },
+  {
+    title: 'The Art of Painting',
+    artist: 'Johannes Vermeer',
+    life: '1632–1675',
+    date: 'c. 1666–1668',
+    painted: 'Delft, Netherlands',
+    location: 'Kunsthistorisches Museum, Vienna, Austria',
+    medium: 'Oil on canvas',
+    size: '120 × 100 cm',
+    story: 'A painter, seen from behind, works on a portrait of a model dressed as Clio, the muse of history. Vermeer valued this picture so much that he kept it himself.',
+    path: '5/5e/Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg',
+    w: 6209, h: 7377
+  },
+  {
+    title: 'Napoleon in His Study',
+    artist: 'Jacques-Louis David',
+    life: '1748–1825',
+    date: '1812',
+    painted: 'Paris, France',
+    location: 'National Gallery of Art, Washington, D.C., USA',
+    medium: 'Oil on canvas',
+    size: '203.9 × 125.1 cm',
+    story: 'The candle has burned low and the clock reads after four, suggesting the emperor has worked through the night. David used these details to show Napoleon as a tireless ruler.',
+    path: '5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg',
+    w: 3079, h: 5135
+  },
+  {
+    title: 'Rain, Steam and Speed',
+    artist: 'J. M. W. Turner',
+    life: '1775–1851',
+    date: '1844',
+    painted: 'London, UK',
+    location: 'National Gallery, London, UK',
+    medium: 'Oil on canvas',
+    size: '91 × 121.8 cm',
+    story: 'A train charges across a bridge on the Great Western Railway, dissolving into rain and light. Turner turned the new technology of his day into a nearly abstract picture.',
+    path: '3/35/Rain_Steam_and_Speed_the_Great_Western_Railway.jpg',
+    w: 5661, h: 4226
+  },
+  {
+    title: 'The Gleaners',
+    artist: 'Jean-François Millet',
+    life: '1814–1875',
+    date: '1857',
+    painted: 'Barbizon, France',
+    location: 'Musée d\'Orsay, Paris, France',
+    medium: 'Oil on canvas',
+    size: '83.5 × 110 cm',
+    story: 'Three poor women gather the last stalks of wheat left behind after the harvest. Giving such humble work this much dignity unsettled many Parisians at the time.',
+    path: '1/1f/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg',
+    w: 5354, h: 4006
+  },
+  {
+    title: 'The Angelus',
+    artist: 'Jean-François Millet',
+    life: '1814–1875',
+    date: '1857–1859',
+    painted: 'Barbizon, France',
+    location: 'Musée d\'Orsay, Paris, France',
+    medium: 'Oil on canvas',
+    size: '55.5 × 66 cm',
+    story: 'Two farm workers stop to pray as a distant church bell marks the end of the day. It became one of the most reproduced pictures of the 19th century.',
+    path: 'f/f7/Jean-Fran%C3%A7ois_Millet_-_The_Angelus_-_Google_Art_Project.jpg',
+    w: 7053, h: 5864
+  },
+  {
+    title: 'A Girl with a Watering Can',
+    artist: 'Pierre-Auguste Renoir',
+    life: '1841–1919',
+    date: '1876',
+    painted: 'Paris, France',
+    location: 'National Gallery of Art, Washington, D.C., USA',
+    medium: 'Oil on canvas',
+    size: '100.3 × 73.2 cm',
+    story: 'A small girl in a blue dress stands on a garden path among bright flowers. Soft, feathery brushwork makes the whole scene seem to glow.',
+    path: '3/3f/Auguste_Renoir_-_A_Girl_with_a_Watering_Can_-_Google_Art_Project.jpg',
+    w: 7201, h: 9888
+  },
+  {
+    title: 'A Bar at the Folies-Bergère',
+    artist: 'Édouard Manet',
+    life: '1832–1883',
+    date: '1882',
+    painted: 'Paris, France',
+    location: 'Courtauld Gallery, London, UK',
+    medium: 'Oil on canvas',
+    size: '96 × 130 cm',
+    story: 'A barmaid faces us while the crowded music hall glitters in the mirror behind her. This was Manet\'s last major work, and its odd reflections still puzzle viewers.',
+    path: '0/0d/Edouard_Manet%2C_A_Bar_at_the_Folies-Berg%C3%A8re.jpg',
+    w: 3419, h: 2553
   }
 ];

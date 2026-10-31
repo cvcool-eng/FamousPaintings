@@ -22,7 +22,7 @@ let busy = false;
 
 const slides = document.querySelector('.hero-slides');
 const slideImages = [1, 2, 8].map((paintingIndex, i) => {
-  const url = imageUrl(paintings[paintingIndex], 1920);
+  const url = imageUrl(paintings[paintingIndex], 1280);
   const slide = document.createElement('div');
   slide.className = 'hero-slide';
   slide.style.setProperty('--i', i);
