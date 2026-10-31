@@ -21,21 +21,38 @@ let busy = false;
 /* Hero */
 
 const slides = document.querySelector('.hero-slides');
-const slideImages = [1, 2, 8].map((paintingIndex, i) => {
+const readySlides = [];
+let currentSlide = null;
+
+function showSlide(slide) {
+  if (currentSlide) currentSlide.classList.remove('on');
+  slide.classList.add('on');
+  currentSlide = slide;
+}
+
+// A slide joins the show only once its image is decoded, so none appears half drawn
+[1, 2, 8].forEach(paintingIndex => {
   const url = imageUrl(paintings[paintingIndex], 1280);
   const slide = document.createElement('div');
   slide.className = 'hero-slide';
-  slide.style.setProperty('--i', i);
-  slide.style.backgroundImage = `url("${url}")`;
-  slides.prepend(slide);
+  slides.append(slide);
 
   const image = new Image();
   image.src = url;
-  return image.decode();
+  image.decode().then(() => {
+    slide.style.backgroundImage = `url("${url}")`;
+    readySlides.push(slide);
+    if (!currentSlide) showSlide(slide);
+  }).catch(() => {});
 });
 
-// Hold the slideshow until every image is ready, so none appears half drawn
-Promise.allSettled(slideImages).then(() => slides.classList.add('ready'));
+if (!reduced) {
+  setInterval(() => {
+    if (readySlides.length < 2) return;
+    const next = (readySlides.indexOf(currentSlide) + 1) % readySlides.length;
+    showSlide(readySlides[next]);
+  }, 11000);
+}
 
 /* Gallery wall */
 
