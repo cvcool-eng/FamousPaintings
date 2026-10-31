@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Famous Paintings</title>
+  <meta name="description" content="A gallery of the world's most famous paintings, with the story of who painted each one, when and where.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-slides" aria-hidden="true"></div>
+    <div class="hero-text">
+      <p class="eyebrow">Six centuries, one room</p>
+      <h1>Famous <em>Paintings</em></h1>
+      <p class="lede">Step close to the works everyone knows, and find out who made them, when and where.</p>
+      <a class="enter" href="#gallery">Enter the gallery</a>
+    </div>
+  </header>
+
+  <main id="gallery">
+    <ul class="wall"></ul>
+    <noscript><p class="notice">This gallery needs JavaScript to show the paintings.</p></noscript>
+  </main>
+
+  <footer class="footer">
+    <p>All images are public domain reproductions, served by <a href="https://commons.wikimedia.org/">Wikimedia Commons</a>.</p>
+  </footer>
+
+  <dialog class="viewer" aria-labelledby="viewer-title">
+    <div class="veil"></div>
+    <button class="control close" type="button" aria-label="Close">&times;</button>
+    <div class="stage"><img class="art" alt=""></div>
+    <aside class="info">
+      <div class="info-body">
+        <p class="count"></p>
+        <h2 id="viewer-title"></h2>
+        <p class="byline"></p>
+        <dl class="facts"></dl>
+        <p class="story"></p>
+        <a class="source" target="_blank" rel="noopener">View image source</a>
+      </div>
+      <nav class="pager" aria-label="Browse paintings">
+        <button class="control prev" type="button" aria-label="Previous painting">&larr;</button>
+        <button class="control next" type="button" aria-label="Next painting">&rarr;</button>
+      </nav>
+    </aside>
+  </dialog>
+
+  <script src="paintings.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
